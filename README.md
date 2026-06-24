@@ -1,3 +1,6 @@
+| [![Codebase Cartographer CI](https://github.com/bylickilabs/Codebase-Cartographer/actions/workflows/main.yml/badge.svg)](https://github.com/bylickilabs/Codebase-Cartographer/actions/workflows/main.yml) |
+|---|
+
 # Codebase Cartographer
 
 > A local-first desktop application for exploring, analyzing, documenting, editing, and archiving Python codebases.
