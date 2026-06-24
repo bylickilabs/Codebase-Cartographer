@@ -19,6 +19,21 @@
 
 <br>
 
+<details>
+  <summary><strong>📸 Screenshots</strong></summary>
+
+| Screenshot |
+|---|
+| <img width="1889" height="1173" alt="Codebase Cartographer Screenshot" src="https://github.com/user-attachments/assets/ac190ccb-9d24-45dd-afdb-e50e9e2ecbbf" /> |
+
+</details>
+
+<br>
+
+---
+
+<br>
+
 ## Table of Contents
 
 ### English
