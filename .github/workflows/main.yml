@@ -1,0 +1,73 @@
+name: Codebase Cartographer CI
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - develop
+  pull_request:
+    branches:
+      - main
+      - master
+      - develop
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: codebase-cartographer-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Python ${{ matrix.python-version }} on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - ubuntu-latest
+          - windows-latest
+          - macos-latest
+        python-version:
+          - "3.10"
+          - "3.14"
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Upgrade packaging tools
+        run: python -m pip install --upgrade pip setuptools wheel
+
+      - name: Install project dependencies
+        run: python -m pip install --requirement requirements.txt
+
+      - name: Verify installed dependencies
+        run: python -m pip check
+
+      - name: Verify required modules
+        run: >-
+          python -c
+          "import customtkinter, cryptography, sqlite3, tkinter;
+          print('All required modules are available.')"
+
+      - name: Compile Python source files
+        run: python -m compileall -q .
+
+      - name: Display environment information
+        run: |
+          python --version
+          python -m pip --version
+          python -c "import platform; print(platform.platform())"
