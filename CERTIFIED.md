@@ -28,20 +28,31 @@
 
 <br>
 
-| <img width="995" height="786" alt="certificate_of_completion_python" src="https://github.com/user-attachments/assets/b39ee054-d8b8-413c-aae4-67808ee66371" /> |
-|---|
+<details>
+  <summary><strong>📜 Certificates</strong></summary>
 
-| <img width="995" height="786" alt="certificate_of_completion_sql" src="https://github.com/user-attachments/assets/40995a6b-36a4-487c-9fc5-b7fe2f22416e" /> |
+| Python |
 |---|
+| <img width="995" height="786" alt="Python Certificate" src="https://github.com/user-attachments/assets/b39ee054-d8b8-413c-aae4-67808ee66371" /> |
 
-| <img width="995" height="786" alt="certificate_of_completion_git" src="https://github.com/user-attachments/assets/3adada17-45fc-4f17-af67-0541210d3f2b" /> |
+| SQL |
 |---|
+| <img width="995" height="786" alt="SQL Certificate" src="https://github.com/user-attachments/assets/40995a6b-36a4-487c-9fc5-b7fe2f22416e" /> |
 
-| <img width="995" height="786" alt="certificate_of_completion_dsa" src="https://github.com/user-attachments/assets/1351229e-fe97-4c05-8a86-4fa5397cd12a" /> |
+| Git |
 |---|
+| <img width="995" height="786" alt="Git Certificate" src="https://github.com/user-attachments/assets/3adada17-45fc-4f17-af67-0541210d3f2b" /> |
 
-| <img width="995" height="786" alt="certificate_of_completion_problemsolving" src="https://github.com/user-attachments/assets/ae728f67-85ea-4a34-9a16-f1d181614a45" /> |
+| DSA |
 |---|
+| <img width="995" height="786" alt="DSA Certificate" src="https://github.com/user-attachments/assets/1351229e-fe97-4c05-8a86-4fa5397cd12a" /> |
 
-| <img width="995" height="786" alt="certificate_of_completion_cyber_security" src="https://github.com/user-attachments/assets/5c689898-38e3-47ee-b8a7-eebfbacfa95c" /> |
+| Problem Solving |
 |---|
+| <img width="995" height="786" alt="Problem Solving Certificate" src="https://github.com/user-attachments/assets/ae728f67-85ea-4a34-9a16-f1d181614a45" /> |
+
+| Cyber Security |
+|---|
+| <img width="995" height="786" alt="Cyber Security Certificate" src="https://github.com/user-attachments/assets/5c689898-38e3-47ee-b8a7-eebfbacfa95c" /> |
+
+</details>
