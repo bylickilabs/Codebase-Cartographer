@@ -5,29 +5,6 @@
 
 <br>
 
----
-
-<br>
-
-### Relevant certification areas
-
-> The following W3Schools certification areas are directly or indirectly relevant to this project:
-
-| Certification area | Relevance to Codebase Cartographer |
-|---|---|
-| Python Certification | Core application development, object-oriented programming, file processing, error handling, modules, imports, threading, and desktop logic |
-| SQL Certification | SQLite database design, persistent scan archives, queries, inserts, updates, filtering, and structured data storage |
-| Git Certification | Version control, repository management, branching, commits, releases, collaboration, and project history |
-| DSA Certification | Abstract syntax trees, tree traversal, collections, dependency structures, sorting, filtering, and algorithmic efficiency |
-| Problem Solving Certification | Software architecture, debugging, decomposition of complex processes, maintainability analysis, and robust control flow |
-| Cyber Security Certification | Local data processing, password handling, encrypted exports, integrity, confidentiality, and secure file operations |
-
-<br>
-
----
-
-<br>
-
 <details>
   <summary><strong>📜 Certificates</strong></summary>
 
@@ -56,3 +33,20 @@
 | <img width="995" height="786" alt="Cyber Security Certificate" src="https://github.com/user-attachments/assets/5c689898-38e3-47ee-b8a7-eebfbacfa95c" /> |
 
 </details>
+
+---
+
+### Relevant certification areas
+
+> The following W3Schools certification areas are directly or indirectly relevant to this project:
+
+| Certification area | Relevance to Codebase Cartographer |
+|---|---|
+| Python Certification | Core application development, object-oriented programming, file processing, error handling, modules, imports, threading, and desktop logic |
+| SQL Certification | SQLite database design, persistent scan archives, queries, inserts, updates, filtering, and structured data storage |
+| Git Certification | Version control, repository management, branching, commits, releases, collaboration, and project history |
+| DSA Certification | Abstract syntax trees, tree traversal, collections, dependency structures, sorting, filtering, and algorithmic efficiency |
+| Problem Solving Certification | Software architecture, debugging, decomposition of complex processes, maintainability analysis, and robust control flow |
+| Cyber Security Certification | Local data processing, password handling, encrypted exports, integrity, confidentiality, and secure file operations |
+
+---
